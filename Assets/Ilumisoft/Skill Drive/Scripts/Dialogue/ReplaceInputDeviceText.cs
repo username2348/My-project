@@ -34,7 +34,7 @@ namespace Ilumisoft.SkillDrive.DialogueSystem
         {
             var replacement = isControllerConnected ? xboxControllerText : keyboardText;
 
-            dialogueText.Text = dialogueText.Text.Replace(keyword, replacement);
+            // dialogueText.Text = dialogueText.Text.Replace(keyword, replacement);
         }
     }
 }

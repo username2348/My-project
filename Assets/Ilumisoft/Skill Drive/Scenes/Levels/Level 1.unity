@@ -448,10 +448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 'In each level you need to pass all waypoint markers in time.
-
-    Let''s
-    get started with something simple'
 --- !u!114 &207520266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,12 +460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 'WE only have a short time frame, so let''s get that done fast.
-
-    There
-    are 15 levels with increasing degree of difficulty
-
-'
 --- !u!114 &207520267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,8 +472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "I AM YOUR evaluation assistant - called <b>eva</b>. \nI will analyse and
-    evaluate your skills"
 --- !u!114 &207520268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -496,10 +484,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 'Welcome to <b>Skill Drive</b>, the virtual test environment developed to
-
-    review
-    your agility. '
 --- !u!1001 &328974197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -867,26 +851,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 54.99, y: 6.5, z: 0}
---- !u!1 &757354321 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3227894000906907715, guid: 5758304666eb1fa49b56d9bccc2a2764,
-    type: 3}
-  m_PrefabInstance: {fileID: 373460460024014564}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &757354325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757354321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3764883cf1743b84d9798d291ec92891, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ruText: 
-  enText: 
 --- !u!1001 &762881885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1879,10 +1843,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8686400676008392832}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3227894000906907715, guid: 5758304666eb1fa49b56d9bccc2a2764,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 757354325}
     - targetCorrespondingSourceObject: {fileID: 8760238959216111475, guid: 5758304666eb1fa49b56d9bccc2a2764,
         type: 3}
       insertIndex: -1
@@ -2349,10 +2309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 'Good job, you have passed your first validation.
-
-    Let''s find out whether
-    you can perform some harder tasks'
 --- !u!4 &8686400676008392832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1744847737927062303, guid: 06d7b8f39de5b8f48b9eea9623896038,
