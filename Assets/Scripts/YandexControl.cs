@@ -22,11 +22,7 @@ namespace DefaultNamespace
 
         public void SwicthMobileInputsState(bool state)
         {
-#if !UNITY_EDITOR
             mobileInputCanvas.SetActive(state);
-#else
-            mobileInputCanvas.SetActive(true);
-#endif
         }
 
         private void Start()
@@ -38,11 +34,9 @@ namespace DefaultNamespace
         {
             yield return new WaitUntil(() => YandexGame.SDKEnabled);
             YandexGame.InitEnvirData();
-#if !UNITY_EDITOR
             VehiclePlayerInput.isMobile = YandexGame.EnvironmentData.isMobile;
-#else
-            VehiclePlayerInput.isMobile = true;
-#endif
+            SwicthMobileInputsState(YandexGame.EnvironmentData.isMobile);
+            //TODO Yandex prefab to Main Menu
         }
     }
 }
