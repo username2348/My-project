@@ -8,12 +8,10 @@ namespace Ilumisoft.SkillDrive.Game
     public class LevelData : ScriptableObject
     {
         [SerializeField]
-        int firstLevelIndex = 0;
+        private int firstLevelIndex = 0;
 
         [SerializeField]
-        int levelCount = 0;
-
-        public int LevelCount { get => this.levelCount; set => this.levelCount = value; }
+        private int levelCount = 0;
 
         /// <summary>
         /// Returns an array containing the build indices of all levels in ascending order

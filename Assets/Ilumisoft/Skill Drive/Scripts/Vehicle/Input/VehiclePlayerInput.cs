@@ -12,6 +12,8 @@ namespace Ilumisoft.SkillDrive.Input
     public class VehiclePlayerInput : VehicleInputSource
     {
         Vector2 movementInput = Vector2.zero;
+        public static Vector2 mobileVector;
+        public static bool isMobile = false;
 
         /// <summary>
         /// Returns the input this input source has collected from the PlayerInput component. This method is mainly used by the vehicle, when it collects the input from the input sources.
@@ -22,12 +24,21 @@ namespace Ilumisoft.SkillDrive.Input
             return movementInput;
         }
 
+        private void Update()
+        {
+            if (isMobile)
+            {
+                movementInput = mobileVector;
+            }
+        }
+
         /// <summary>
         /// This method is called by the PlayerInput component and updates the input data.
         /// </summary>
         /// <param name="movementValue"></param>
         public void OnMove(InputValue movementValue)
         {
+            if(isMobile) return;
             movementInput = movementValue.Get<Vector2>();
         }
 

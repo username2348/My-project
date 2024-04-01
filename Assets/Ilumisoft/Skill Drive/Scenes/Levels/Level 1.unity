@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44479683, g: 0.49434274, b: 0.573539, a: 1}
+  m_IndirectSpecularColor: {r: 0.44479695, g: 0.49434322, b: 0.5735397, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -867,6 +867,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 54.99, y: 6.5, z: 0}
+--- !u!1 &757354321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3227894000906907715, guid: 5758304666eb1fa49b56d9bccc2a2764,
+    type: 3}
+  m_PrefabInstance: {fileID: 373460460024014564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &757354325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757354321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3764883cf1743b84d9798d291ec92891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ruText: 
+  enText: 
 --- !u!1001 &762881885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1238,11 +1258,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Intro Dialogue
-      objectReference: {fileID: 0}
-    - target: {fileID: 8686400674463655123, guid: 9b6ee62bd80af5f49a4625c9a2ad2a88,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8686400674463655123, guid: 9b6ee62bd80af5f49a4625c9a2ad2a88,
         type: 3}
@@ -1864,6 +1879,10 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8686400676008392832}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3227894000906907715, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 757354325}
     - targetCorrespondingSourceObject: {fileID: 8760238959216111475, guid: 5758304666eb1fa49b56d9bccc2a2764,
         type: 3}
       insertIndex: -1

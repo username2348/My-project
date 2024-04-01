@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -56,6 +57,7 @@ namespace Ilumisoft.SkillDrive.DialogueSystem
 
         IEnumerator Start()
         {
+            YandexControl.Instance.SwicthMobileInputsState(false);
             TextDisplay.text = string.Empty;
 
             yield return null;

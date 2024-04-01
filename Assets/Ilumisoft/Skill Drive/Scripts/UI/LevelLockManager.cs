@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using YG;
 
 namespace Ilumisoft.SkillDrive
 {
@@ -6,8 +7,8 @@ namespace Ilumisoft.SkillDrive
     {
         public static void UnlockLevel(int levelNumber)
         {
-            PlayerPrefs.SetInt($"UnlockedLevels/Level{levelNumber}", 1);
-            PlayerPrefs.Save();
+            YandexGame.savesData.unlockedLvls += $";UnlockedLevels/Level{levelNumber}";
+            YandexGame.SaveProgress();
         }
 
         public static bool IsLocked(int levelNumber)
@@ -17,8 +18,7 @@ namespace Ilumisoft.SkillDrive
                 return false;
             }
 
-            return !PlayerPrefs.HasKey($"UnlockedLevels/Level{levelNumber}");
-
+            return !YandexGame.savesData.unlockedLvls.Contains($"UnlockedLevels/Level{levelNumber}");
         }
     }
 }

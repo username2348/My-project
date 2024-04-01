@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using DefaultNamespace;
+using UnityEngine;
 using UnityEngine.Events;
+using YG;
 
 namespace Ilumisoft.SkillDrive.DialogueSystem
 {
@@ -33,6 +35,7 @@ namespace Ilumisoft.SkillDrive.DialogueSystem
 
         private void OnComplete()
         {
+            YandexControl.Instance.SwicthMobileInputsState(YandexGame.EnvironmentData.isMobile);
             actions?.Invoke();
         }
     }

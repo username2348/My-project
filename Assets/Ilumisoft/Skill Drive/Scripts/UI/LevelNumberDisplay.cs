@@ -11,12 +11,14 @@ namespace Ilumisoft.SkillDrive.UI
         [SerializeField]
         TMPro.TextMeshProUGUI text = null;
 
+        private readonly MultiText _levelText = new MultiText("Уровень", "Level");
+
 
         void Start()
         {
             int levelNumber = levelData.GetLevelNumber(gameObject.scene);
 
-            text.text = $"Level {levelNumber}";
+            text.text = $"{_levelText.GetText()} {levelNumber}";
         }
     }
 }
