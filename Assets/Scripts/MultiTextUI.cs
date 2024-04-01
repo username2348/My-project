@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using YG;
 
+[Serializable]
 public class MultiText
 {
     public string ruText;

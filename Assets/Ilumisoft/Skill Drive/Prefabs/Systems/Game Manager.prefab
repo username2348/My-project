@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42f08bdacf547909f2141906177564d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeVector: {x: 0, y: -1}
+  activeVector: {x: -1, y: 0}
 --- !u!1 &3227894000906907715
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42f08bdacf547909f2141906177564d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeVector: {x: -1, y: 0}
+  activeVector: {x: 0, y: -1}
 --- !u!1 &4167924732659078418
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42f08bdacf547909f2141906177564d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeVector: {x: 0, y: 1}
+  activeVector: {x: 1, y: 0}
 --- !u!1 &4718931964534590930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c42f08bdacf547909f2141906177564d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeVector: {x: 1, y: 0}
+  activeVector: {x: 0, y: 1}
 --- !u!1 &8421508533383580117
 GameObject:
   m_ObjectHideFlags: 0
