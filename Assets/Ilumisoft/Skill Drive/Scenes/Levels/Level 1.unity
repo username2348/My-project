@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44479695, g: 0.49434322, b: 0.5735397, a: 1}
+  m_IndirectSpecularColor: {r: 0.44479683, g: 0.49434274, b: 0.573539, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -448,6 +448,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text:
+    ruText: "\u0412 \u043A\u0430\u0436\u0434\u043E\u043C \u0438\u0437 \u043D\u0438\u0445
+      \u0442\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u043E \u0441\u043E\u0431\u0440\u0430\u0442\u044C
+      \u0432\u0441\u0435 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u044B\u0435
+      \u0442\u043E\u0447\u043A\u0438 \u0432\u043E\u0432\u0440\u0435\u043C\u044F.
+      \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0435\u043C \u043D\u0430\u0447\u0430\u0442\u044C
+      \u0441 \u043F\u0440\u043E\u0441\u0442\u043E\u0433\u043E."
+    enText: In each level you need tj pass all waypoint markers in time. Let's get
+      started with something simple.
 --- !u!114 &207520266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,6 +469,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text:
+    ruText: "\u0423 \u043D\u0430\u0441 \u0441 \u0442\u043E\u0431\u043E\u0439 \u043C\u0430\u043B\u043E
+      \u0432\u0440\u0435\u043C\u044F\u043D\u0438, \u0442\u0430\u043A \u0447\u0442\u043E
+      \u0434\u0430\u0432\u0430\u0439, \u0440\u0430\u0441\u0441\u043A\u0430\u0436\u0443
+      \u0432\u0441\u0451 \u0431\u044B\u0441\u0442\u0440\u043E. \u0417\u0434\u0435\u0441\u044C
+      15 \u0443\u0440\u043E\u0432\u043D\u0435\u0439 \u0441 \u0440\u0430\u0437\u043D\u043E\u0439
+      \u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u044C\u044E."
+    enText: WE only have a short time frame, so let's get that done fast. There are
+      15 levels witch increasing degree of difficulty.
 --- !u!114 &207520267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -472,6 +490,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text:
+    ruText: "\u042F <b>\u0415\u0432\u0430</b> - \u0442\u0432\u043E\u0439 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439
+      \u043F\u043E\u043C\u043E\u0448\u043D\u0438\u043A. \u042F \u0431\u0443\u0434\u0443
+      \u0430\u043D\u0430\u043B\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+      \u0438 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044C \u0442\u0432\u043E\u0438
+      \u043D\u0430\u0432\u044B\u043A\u0438."
+    enText: I AM YOUR evoluation assistant - caled <b>eva</b>. I will analyse and
+      evaluate your skills
 --- !u!114 &207520268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,6 +510,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text:
+    ruText: "\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C
+      \u0432 \u0432\u0438\u0440\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0439 \u0442\u0435\u0441\u0442
+      \u0434\u043B\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0438 \u0432\u0430\u0448\u0438\u0445
+      \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u0435\u0439 \u043F\u043E\u0434
+      \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435\u043C \"<b>\u041E\u043F\u044B\u0442\u043D\u044B\u0439
+      \u0412\u043E\u0434\u0438\u0442\u0435\u043B\u044C</b>\"."
+    enText: Welcome to <b>Skill Driver</b>, the virtual test enviroment developed
+      to review your agility.
 --- !u!1001 &328974197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1835,6 +1870,26 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8760238957567711345, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u041F\u0420\u041E\u0414\u041E\u041B\u0416\u0418\u0422\u042C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760238958084600758, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0412\u042B\u0425\u041E\u0414"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760238958610851032, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0412\u042B\u0425\u041E\u0414"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760238959138606879, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0415\u0429\u0401 \u0420\u0410\u0417"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2214,6 +2269,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373460460024014565}
     m_Modifications:
+    - target: {fileID: 1744847737302567584, guid: 06d7b8f39de5b8f48b9eea9623896038,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0421\u043E\u0431\u0435\u0440\u0438 \u0433\u043E\u043B\u0443\u0431\u044B\u0435
+        \u043A\u0443\u0431\u0438\u043A\u0438 \u0434\u043E \u0442\u043E\u0433\u043E,
+        \u043A\u0430\u043A \u0438\u0441\u0442\u0435\u0447\u0451\u0442 \u0432\u0440\u0435\u043C\u044F."
+      objectReference: {fileID: 0}
     - target: {fileID: 1744847737927062300, guid: 06d7b8f39de5b8f48b9eea9623896038,
         type: 3}
       propertyPath: m_Name
@@ -2309,6 +2371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text:
+    ruText: 
+    enText: 
 --- !u!4 &8686400676008392832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1744847737927062303, guid: 06d7b8f39de5b8f48b9eea9623896038,

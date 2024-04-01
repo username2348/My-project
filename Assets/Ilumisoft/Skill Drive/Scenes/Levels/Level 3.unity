@@ -2177,10 +2177,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccf5a6ab76a0a34ab62bc436ed75518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 'Time for a longer track. By the way: You can directly restart a level by
-
-    pressing
-    <b>RESTART_KEY</b> if you missed a cube'
+  text:
+    ruText: "\u0427\u0443\u0434\u0435\u0441\u043D\u043E! \u0414\u0430\u0432\u0430\u0439
+      \u0442\u0435\u043F\u0435\u0440\u044C \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0435\u043C
+      \u043F\u0443\u0442\u044C \u043F\u043E\u0434\u043B\u0438\u043D\u043D\u0435\u0435.
+      \u041A \u0441\u043B\u043E\u0432\u0443, \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435
+      \u043D\u0430\u0436\u0430\u0442\u044C \u043A\u043B\u0430\u0432\u0438\u0448\u0443
+      \"R\" \u0434\u043B\u044F \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u043A\u0430
+      \u0443\u0440\u043E\u0432\u043D\u044F."
+    enText: 'Time for a longer track. By the way: You can directly restart a level
+      by pressing R.'
 --- !u!114 &1237132816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2337,6 +2343,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760238957567711345, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u041F\u0420\u041E\u0414\u041E\u041B\u0416\u0418\u0422\u042C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760238958084600758, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0412\u042B\u0425\u041E\u0414"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760238958610851032, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0412\u042B\u0425\u041E\u0414"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760238959138606879, guid: 5758304666eb1fa49b56d9bccc2a2764,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0415\u0429\u0401 \u0420\u0410\u0417"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
