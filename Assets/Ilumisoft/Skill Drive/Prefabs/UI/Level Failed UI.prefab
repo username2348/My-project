@@ -449,6 +449,7 @@ GameObject:
   - component: {fileID: 8988149821799098566}
   - component: {fileID: 8988149821799098560}
   - component: {fileID: 8988149821799098561}
+  - component: {fileID: 161204652650121791}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -503,7 +504,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041F\u0420\u041E\u0414\u041E\u041B\u0416\u0418\u0422\u042C"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -572,6 +573,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &161204652650121791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8988149821799098567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3764883cf1743b84d9798d291ec92891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ruText: "\u0415\u0449\u0451 \u0440\u0430\u0437"
+  enText: Retry
 --- !u!1 &8988149821891104074
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +732,7 @@ GameObject:
   - component: {fileID: 8988149822349656839}
   - component: {fileID: 8988149822349656833}
   - component: {fileID: 8988149822349656838}
+  - component: {fileID: 1045851685222325418}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -771,7 +787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0412\u042B\u0425\u041E\u0414"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -840,6 +856,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1045851685222325418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8988149822349656836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3764883cf1743b84d9798d291ec92891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ruText: "\u0412\u044B\u0445\u043E\u0434"
+  enText: Exit
 --- !u!1 &8988149822366054633
 GameObject:
   m_ObjectHideFlags: 0

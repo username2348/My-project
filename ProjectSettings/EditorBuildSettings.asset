@@ -6,54 +6,70 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Menu.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Menu.unity
     guid: b4da4660c40c9564fb874f7cd07ff210
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Level Selection.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Level
+      Selection.unity
     guid: e9ea04160ca43d64fa19e8e9c641d681
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 1.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      1.unity
     guid: 9c7502bda6181384785690251dd72858
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 2.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      2.unity
     guid: 632788fa65a287846badbb3edca0575a
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 3.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      3.unity
     guid: 5f62280ec36fc9d45b48af806f0673e2
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 4.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      4.unity
     guid: fb84b8f2b11f5154482db20c9ac04a5e
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 5.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      5.unity
     guid: dad01c787c8d5944ab010727aac6f6f6
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 6.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      6.unity
     guid: 4409a0dfd747f124caf596c1c9dfed2c
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 7.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      7.unity
     guid: d0b970cca080f254f9b5408c65f17d90
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 8.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      8.unity
     guid: e6585aed9f3e6b24e88abe6aeda80d6d
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 9.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      9.unity
     guid: e91a676398a9f544b92ac0c6d9d38cb3
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 10.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      10.unity
     guid: 01eccc889a485a345a407f0a1c7ff592
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 11.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      11.unity
     guid: dda1272a4e20f464a85686846038a5d7
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 12.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      12.unity
     guid: ae2cf77929861cf4ca1e9bba19be54e4
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 13.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      13.unity
     guid: 3a3edb736d60b494aab23af8e18a142d
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 14.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      14.unity
     guid: d0ba51bf96f34c74880947eafc3d4601
   - enabled: 1
-    path: Assets/Ilumisoft/Skill Drive/Scenes/Levels/Level 15.unity
+    path: Assets/Ilumisoft/Skill Drive/Resources/Ilumisoft/Skill Drive/Scenes/Levels/Level
+      15.unity
     guid: 38f720b3fa2e120428fa599f735635e3
   m_configObjects: {}
