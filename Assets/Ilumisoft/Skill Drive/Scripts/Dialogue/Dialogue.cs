@@ -57,7 +57,7 @@ namespace Ilumisoft.SkillDrive.DialogueSystem
 
         IEnumerator Start()
         {
-            YandexControl.Instance.SwicthMobileInputsState(false);
+            YandexLevelControl.Instance.SwicthMobileInputsState(false);
             TextDisplay.text = string.Empty;
 
             yield return null;

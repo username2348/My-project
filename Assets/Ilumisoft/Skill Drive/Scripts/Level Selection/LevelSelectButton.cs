@@ -11,6 +11,8 @@ namespace Ilumisoft.SkillDrive.LevelSelection
 
         LevelSelectionManager levelSelectManager;
 
+        private MultiText _levelText = new MultiText("Уровень", "LEVEL");
+
         int levelNumber = 0;
 
         Button button;
@@ -34,7 +36,7 @@ namespace Ilumisoft.SkillDrive.LevelSelection
         {
             this.levelSelectManager = levelSelectManager;
             this.levelNumber = levelNumber;
-            text.text = $"LEVEL {levelNumber}";
+            text.text = $"{_levelText.GetText()} {levelNumber}";
         }
 
         public void OnSelect(BaseEventData eventData)

@@ -22,7 +22,7 @@ namespace Ilumisoft.SkillDrive.UI
             button.onClick.AddListener(OnClick);
         }
 
-        private void OnClick()
+        public void OnClick()
         {
             if (sceneLoader != null)
             {

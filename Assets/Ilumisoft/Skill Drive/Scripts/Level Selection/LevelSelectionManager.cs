@@ -62,6 +62,19 @@ namespace Ilumisoft.SkillDrive.LevelSelection
             };
         }
 
+        public void LoadCurrentLevel()
+        {
+            if (IsCurrentLevelLocked == false)
+            {
+                StopAllCoroutines();
+                StartCoroutine(LoadLevelCoroutine(currentIndex+1));
+            }
+            else
+            {
+                deniedSFX.Play();
+            }
+        }
+
         private IEnumerator Start()
         {
             sceneLoader = FindObjectOfType<SceneLoader>();

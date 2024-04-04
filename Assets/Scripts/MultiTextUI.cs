@@ -47,7 +47,7 @@ public class MultiTextUI : MonoBehaviour
         {
             var textMesh = GetComponent<TextMesh>();
             if (textMesh != null)
-            {
+            { // TODO Yandex Control on Main Menu and Level Selecter
                 textMesh.text = lang == "ru" ? ruText : enText;
             }
         }
